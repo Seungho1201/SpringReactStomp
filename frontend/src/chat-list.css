@@ -1,0 +1,46 @@
+.chat-list-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #fefefe;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .chat-list-header {
+    font-size: 1.6rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  
+  .chat-list-refresh {
+    text-align: right;
+    margin-bottom: 12px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  
+  .chat-room-item {
+    border: 1px solid #ccc;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+  }
+  
+  .chat-room-item:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .chat-room-name {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
+  
+  .chat-room-id {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
